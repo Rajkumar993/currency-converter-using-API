@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(216, 216, 8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.converter{
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
+}
+.select{
+ display: flex;
+ width: 250px;
+ gap: 10px;
+}
+.input{
+  display: flex;
+  width: 250px;
+  gap: 10px;
+}
+input{
+  width: 100%;
+  outline: none;
+}
+select{
+  width: 100%;
+  outline: none;
+}
